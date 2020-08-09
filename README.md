@@ -14,14 +14,14 @@ Introduction
 
 ---
 
-Simple example to illustrate how Matrix Factorization model can be used to build a Recommender System.
+A simple example to illustrate how the Matrix Factorization model can be used to build a Recommender System.
 
 -	Matrix_Factorization.ipynb: preprocessing data, training two kinds of Matrix Factorization models(SVD & NMF), and evaluating trained model
 -	recsystools.py: some tools that are useful to build and evaluate Recommender System models
 
-In this example, we are going to predict which product a customer might be interested in based on past purchase record from e-commerce site. Different from usual movielens example, we are trying to predict user preference using implicit feedback data.
+In this example, we are going to predict which product a customer might be interested in based on past purchase records from an e-commerce site. Different from the usual movielens example, we are trying to predict user preference using implicit feedback data.
 
-for simple and intuitive explanation about Matrix Factorization, I recommend this amazing video of Luis Serrano:
+for a simple and intuitive explanation about Matrix Factorization, I recommend this amazing video of Luis Serrano:
 
 https://www.youtube.com/watch?v=ZspR5PZemcs&t=5s
 
@@ -38,7 +38,7 @@ Download dataset via URL below:
 https://www.kaggle.com/carrie1/ecommerce-data
 ```
 
-This dataset contains 540k transaction records of 4372 customers, and 4070 products.
+This dataset contains 540k transaction records of 4372 customers and 4070 products.
 
 Results
 -------
